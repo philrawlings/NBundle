@@ -9,7 +9,10 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Description>dotnet tool: SASS Compiler, CSS Bundler, CSS Minifier, JS Bunder, with FileSystemWatcher for live editing</Description>
+    <Description>dotnet Tool: SASS Compiler, CSS Bundler, CSS Minifier, JS Bunder, with FileSystemWatcher for live editing</Description>
+    <PackageProjectUrl>https://github.com/philrawlings/NBundle</PackageProjectUrl>
+    <PackageTags>SASS SCSS CSS JavaScript</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     
   </PropertyGroup>
 
