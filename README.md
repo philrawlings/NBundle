@@ -25,7 +25,7 @@ compiles to:
 
 ## Install Instructions
 
-`dotnet tool install -g nbundle`
+`dotnet tool install -g NBundle`
 
 ## Usage Instructions
 
