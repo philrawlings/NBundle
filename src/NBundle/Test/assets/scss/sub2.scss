@@ -1,0 +1,10 @@
+@import "./_variables";
+
+h1 {
+  color: $primaryColour;
+}
+
+h2 {
+  @extend h1;
+  border: 1px solid black;
+}

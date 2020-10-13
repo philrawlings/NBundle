@@ -1,0 +1,12 @@
+div {
+  color: green;
+  display: flex;
+
+  &:hover {
+    display: none;
+  }
+
+  &::after {
+    content: "hello";
+  }
+}

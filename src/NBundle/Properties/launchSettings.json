@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "NBundle": {
+      "commandName": "Project",
+      "commandLineArgs": "-w"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

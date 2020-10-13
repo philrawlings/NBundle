@@ -1,0 +1,33 @@
+@import "./_variables";
+
+@mixin flexCentre {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexCentreWithDirection($direction) {
+  height: 100vh; /* Some custom comment here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+.container {
+  @include flexCentreWithDirection(column);
+    width: 100%;
+    color: $primaryColour;
+    user-select: none;
+  }
+  
+  article[role="main"] {
+    float: left;
+    width: 600px / 960px * 100%;
+  }
+  
+  aside[role="complementary"] {
+    float: right;
+    width: 300px / 960px * 100%;
+  }
