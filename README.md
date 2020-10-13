@@ -14,9 +14,9 @@ Implemented as a dotnet tool which can be run in the following modes:
 ## Usage Instructions
 
 - `nbundle` (Single shot mode, expects nbundle.json in current directory)
-- `nbundle -c path/to/config.json` (Single shot mode, custom config file location)
+- `nbundle -c path/to/nbundle.json` (Single shot mode, custom config file location)
 - `nbundle -w` (Watcher mode, expects nbundle.json in current directory)
-- `nbundle -w -c path/to/config.json` (Watcher mode, custom config file location)
+- `nbundle -w -c path/to/nbundle.json` (Watcher mode, custom config file location)
 
 ## Example config file (default name: nbundle.json)
 
