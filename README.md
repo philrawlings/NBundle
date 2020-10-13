@@ -7,6 +7,22 @@ Implemented as a dotnet tool which can be run in the following modes:
 - Single-shot mode: reads configuration file and performs the compile/bundle/minify operations.
 - Watcher mode: performs a single shot operation then monitors the source folders for changes, automatically performing operations when files are modified. This is designed for live editing (e.g. modifying scss and js source files, where an asp.net web application references compiled and bundled versions.)
 
+SASS Compiler converts to CSS and also runs an autoprefixer post-processor to automatically add vendor prefixes to CSS properties where needed. This ensures source files can use clean, minimal declarations.
+For example:
+
+```CSS
+  user-select:none
+```
+
+compiles to:
+
+```CSS
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+```
+
 ## Install Instructions
 
 `dotnet tool install -g nbundle`
